@@ -1,0 +1,129 @@
+/* src/fonts.css */
+@font-face {
+    font-family: 'FilsonPro';
+    src: url('../public/fonts/Filson/FilsonProBlack.otf') format('opentype');
+    font-weight: 900; /* Usar un número para representar el peso 'black' */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    src: url('../public/fonts/Filson/FilsonProBlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic; /* Cambiar a italic para la versión en cursiva */
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    src: url('../public/fonts/Filson/FilsonProBold.otf') format('opentype');
+    font-weight: 700; /* Bold generalmente es 700 */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    src: url('../public/fonts/Filson/FilsonProBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    src: url('../public/fonts/Filson/FilsonProBook.otf') format('opentype');
+    font-weight: 400; /* 'Book' a menudo equivale a 'normal' o 400 */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    src: url('../public/fonts/Filson/FilsonProBookItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'FilsonPro';
+    src: url('../public/fonts/Filson/FilsonProLight.otf') format('opentype');
+    font-weight: 300; /* Light puede ser alrededor de 300 */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    src: url('../public/fonts/Filson/FilsonProLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    src: url('../public/fonts/Filson/FilsonProMedium.otf') format('opentype');
+    font-weight: 500; /* Medium generalmente es 500 */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    src: url('../public/fonts/Filson/FilsonProMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    src: url('../public/fonts/Filson/FilsonProRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    src: url('../public/fonts/Filson/FilsonProRegularItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    src: url('../public/fonts/Filson/FilsonProThin.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    src: url('../public/fonts/Filson/FilsonProThinItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+.regular-light-300 {
+font-family: 'FilsonPro', sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.regular-light-400 {
+font-family: 'FilsonPro', sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.regular-light-700 {
+font-family: 'FilsonPro', sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.regular-light-900 {
+font-family: 'FilsonPro', sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+
+.regular-light-900 {
+font-family: 'FilsonPro', sans-serif;
+font-weight: 900;
+font-style: normal;
+}
