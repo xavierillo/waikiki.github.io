@@ -108,3 +108,21 @@ body {
       height: 60px;
   }
 }
+
+
+
+.navbar-nav.navbar-waikiki .nav-link.active, .navbar-nav.navbar-waikiki .nav-link.show {
+  color: #00A5B7;
+}
+
+.navbar-waikiki .nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: 24px;
+  font-weight: 700;
+  color: #9E9E9E;
+  text-decoration: none;
+  background: 0 0;
+  border: 0;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}

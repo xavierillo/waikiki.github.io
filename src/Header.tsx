@@ -19,7 +19,7 @@ const Header: React.FC = () => {
 
                 {/* Enlaces de navegación */}
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-                    <div className="navbar-nav ms-auto">
+                    <div className="navbar-nav navbar-waikiki ms-auto me-auto">
                         <a className="nav-item nav-link active" href="#inicio">Inicio</a>
                         <a className="nav-item nav-link" href="#servicios">Servicios</a>
                         <a className="nav-item nav-link" href="#contacto">Contacto</a>
