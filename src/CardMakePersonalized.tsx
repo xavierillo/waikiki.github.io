@@ -11,9 +11,9 @@ export interface IAppProps {
 export default class App extends React.Component<IAppProps> {
   public render() {
     return (
-        <div className="container-fluid text-center bg-white">
+        <div className="container-fluid text-center bg-waikiki-fondo-1 pb-5">
             <div className="row">
-                <div className="col-12 pt-5">
+                <div className="col-12 pt-5 pb-5">
                     <div className='row align-items-center'>
                         <div className="col-12 col-sm-4 text-end">
                             <img src={decoracion_lineal_1} alt="Logo" className="responsive-height" height="200"/>
@@ -29,26 +29,26 @@ export default class App extends React.Component<IAppProps> {
                 <div className='col-12'>
                     <div className='row align-items-center'>
                     <div className="col col-lg-4 d-flex align-items-end flex-column">
-                        <div className="card mt-auto me-auto ms-auto border-0 rounded rounded-5 rounded-bottom-0" style={{height: "28rem"}}>
+                        <div className="card mt-auto me-auto ms-auto border-0 rounded rounded-5 bg-waikiki-01-dg" style={{minWidth: "20rem"}}>
                             <div className="card-body">
                                 <img src={parejas} alt="Logo"  height="250"/>
-                                <h3 className='pt-3 color-waikiki-1'>Para parejas</h3>
+                                <h3 className='pt-3 color-waikiki-1 regular-light-900'>Para parejas</h3>
                             </div>
                         </div>
                     </div>
                     <div className="col col-lg-4 d-flex align-items-end flex-column">
-                        <div className="card mt-auto me-auto ms-auto border-0 rounded rounded-5 rounded-bottom-0" style={{height: "28rem"}}>
+                        <div className="card mt-auto me-auto ms-auto border-0 rounded rounded-5 bg-waikiki-01-dg" style={{minWidth: "20rem"}}>
                             <div className="card-body text-center">
                                 <img src={cumpleaños} alt="Logo"  height="250"/>
-                                <h3 className='pt-3 color-waikiki-1'>Para cumpleaños</h3>
+                                <h3 className='pt-3 color-waikiki-1 regular-light-900'>Para cumpleaños</h3>
                             </div>
                         </div>
                     </div>
                     <div className="col col-lg-4 d-flex align-items-end flex-column">
-                        <div className="card mt-auto me-auto ms-auto border-0 rounded rounded-5 rounded-bottom-0" style={{height: "28rem"}}>
+                        <div className="card mt-auto me-auto ms-auto border-0 rounded rounded-5 bg-waikiki-01-dg" style={{minWidth: "20rem"}}>
                             <div className="card-body">
                                 <img src={bebe} alt="Logo"  height="250"/>
-                                <h3 className='pt-3 color-waikiki-1'>Para recién nacidos</h3>
+                                <h3 className='pt-3 color-waikiki-1 regular-light-900'>Para recién nacidos</h3>
                             </div>
                         </div>
                     </div>

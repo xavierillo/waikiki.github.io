@@ -5,6 +5,9 @@
 import Header from './Header';
 import CardContactUs from './CardContactUs';
 import CardMakePersonalized from './CardMakePersonalized';
+import CardMessage1 from './CardMessage1';
+import CardCustomDyeing from './CardCustomDyeing';
+
 
 function App() {
  
@@ -13,6 +16,8 @@ function App() {
       <Header />
       <CardContactUs />
       <CardMakePersonalized />
+      <CardMessage1 />
+      <CardCustomDyeing />
     </>
   )
 }
