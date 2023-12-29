@@ -13,16 +13,16 @@ export default class App extends React.Component<IAppProps> {
     return (
         <div className="container-fluid text-center bg-radial-waikiki pt-5 pb-5">
             <div className="row">
-                <div className="col-12 pt-5 pb-5">
-                    <div className='row align-items-center'>
-                        <div className="col-12 col-sm-4 text-end">
-                            <img src={decoracion_lineal_1} alt="Logo"  height="300"/>
+                <div className="col-12 pt-4 pb-4">
+                    <div className='row g-0 align-items-center'>
+                        <div className="col-auto col-sm-4 text-end">
+                            <img src={decoracion_lineal_1} alt="Logo"  height="100"/>
                         </div>
-                        <div className="col-12 col-sm-4">
-                            <h3 className="card-title bold-text text-white mt-auto mb-auto">Tu imaginación, nuestros estampados; juntos, creamos magia.</h3>
+                        <div className="col col-sm-4"> 
+                            <h3 className="ps-3 pe-3 text-white regular-light-400 mt-auto mb-auto">Tu imaginación, nuestros estampados; juntos, creamos magia.</h3>
                         </div>
-                        <div className="col-12 col-sm-4 text-start">
-                            <img src={decoracion_lineal_2} alt="Logo"  height="300"/>
+                        <div className="col-auto col-sm-4 text-start">
+                            <img src={decoracion_lineal_2} alt="Logo"  height="100"/>
                         </div>
                     </div>
                 </div>

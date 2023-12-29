@@ -2,6 +2,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logoEmpresa from './assets/img/waikiki_min.svg';
+import { Link } from 'react-scroll';
 
 const Header: React.FC = () => {
     return (
@@ -20,9 +21,9 @@ const Header: React.FC = () => {
                 {/* Enlaces de navegación */}
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                     <div className="navbar-nav navbar-waikiki ms-auto me-auto">
-                        <a className="nav-item nav-link active" href="#inicio">Inicio</a>
-                        <a className="nav-item nav-link" href="#servicios">Servicios</a>
-                        <a className="nav-item nav-link" href="#contacto">Contacto</a>
+                        <Link className="nav-item nav-link" style={{cursor: 'pointer'}} to="servicioEstampados" spy={true} smooth={true} offset={-86} duration={500}>Estampados</Link>
+                        <Link className="nav-item nav-link" style={{cursor: 'pointer'}} to="servicioTenido" spy={true} smooth={true} offset={-86} duration={500}>Teñidos personalizados</Link>
+                        <Link className="nav-item nav-link" style={{cursor: 'pointer'}} to="ServicioAdhesivo" spy={true} smooth={true} offset={-86} duration={500}>Adhesivos en vinil</Link>
                     </div>
                 </div>
             </div>

@@ -15,6 +15,15 @@ body {
   background: #FDA972;
 }
 
+.bg-waikiki-5 {
+  background: #5AB6AA;
+}
+
+.bg-waikiki-6 {
+  background: #00A5B7;
+}
+
+
 
 .bg-radial-waikiki {
   background: rgb(28,131,127);
@@ -22,6 +31,22 @@ body {
   background: -webkit-radial-gradient(circle, rgba(28,131,127,1) 0%, rgba(14,66,64,1) 100%);
   background: radial-gradient(circle, rgba(28,131,127,1) 0%, rgba(14,66,64,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c837f",endColorstr="#0e4240",GradientType=1);
+}
+
+.bg-radial-waikiki-02 {
+  background: rgb(254,201,131);
+  background: -moz-radial-gradient(circle, rgba(254,201,131,1) 0%, rgba(254,201,131,1) 8%, rgba(253,129,48,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(254,201,131,1) 0%, rgba(254,201,131,1) 8%, rgba(253,129,48,1) 100%);
+  background: radial-gradient(circle, rgba(254,201,131,1) 0%, rgba(254,201,131,1) 8%, rgba(253,129,48,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fec983",endColorstr="#fd8130",GradientType=1);
+}
+
+.bg-lineal-waikiki-02 {
+  background: rgb(254,201,131);
+  background: -moz-linear-gradient(180deg, rgba(254,201,131,1) 0%, rgba(253,129,48,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(254,201,131,1) 0%, rgba(253,129,48,1) 100%);
+  background: linear-gradient(180deg, rgba(254,201,131,1) 0%, rgba(253,129,48,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fec983",endColorstr="#fd8130",GradientType=1);
 }
 
 .bg-waikiki-01-dg {
