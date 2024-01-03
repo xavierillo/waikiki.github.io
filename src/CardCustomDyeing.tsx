@@ -37,7 +37,7 @@ export default class App extends React.Component<IAppProps> {
                                                     </div>
                                                     <div className="col-12 ps-5 pe-5 text-start">
                                                         <h1 className='fw-medium color-waikiki-5 mb-3'>¿Por qué teñir tus prendas?</h1>
-                                                        <p className='fs-5'>Teñir tus prendas extiende su vida útil y reduce el desperdicio, transformando lo viejo en algo vibrante y actual. Es un acto creativo y sostenible que realza tu estilo personal mientras cuida el medio ambiente.</p>
+                                                        <p className='fs-5 text-white'>Teñir tus prendas extiende su vida útil y reduce el desperdicio, transformando lo viejo en algo vibrante y actual. Es un acto creativo y sostenible que realza tu estilo personal mientras cuida el medio ambiente.</p>
                                                     </div>
                                                     <div className="col-12 text-start">
                                                         <img src={decoracionStart} alt="Logo" width={70}/>
