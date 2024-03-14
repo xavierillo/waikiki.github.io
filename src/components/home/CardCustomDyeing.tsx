@@ -1,9 +1,9 @@
 import * as React from 'react';
-import disenioStart from './assets/img/disenio-0-start.png';
-import disenioEnd from './assets/img/disenio-0-end.png';
-import poleronTenido from './assets/img/poleron-tenido.png';
-import decoracionStart from './assets/img/decoracion-01-start.png';
-import decoracionEnd from './assets/img/decoracion-01-end.png';
+import disenioStart from '../../assets/img/disenio-0-start.png';
+import disenioEnd from '../../assets/img/disenio-0-end.png';
+import poleronTenido from '../../assets/img/poleron-tenido.png';
+import decoracionStart from '../../assets/img/decoracion-01-start.png';
+import decoracionEnd from '../../assets/img/decoracion-01-end.png';
 
 
 export interface IAppProps {

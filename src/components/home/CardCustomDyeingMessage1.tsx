@@ -1,5 +1,5 @@
 import * as React from 'react';
-import logo_min_waikiki from './assets/img/logo_min_waikiki.svg';
+import logo_min_waikiki from '../../assets/img/logo_min_waikiki.svg';
 /* import parejas from './assets/img/pareja.png';
 import cumpleaños from './assets/img/cumpleaneaos.png';
 import bebe from './assets/img/bebe.png'; */

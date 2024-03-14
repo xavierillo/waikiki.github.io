@@ -1,7 +1,7 @@
 import * as React from 'react';
-import waikikiAdhesivos from './assets/img/waikiki-adhesivos.png';
-import disenio_1 from './assets/img/disenio-1-start.png';
-import promocion from './assets/img/promocion.png';
+import waikikiAdhesivos from '../../assets/img/waikiki-adhesivos.png';
+import disenio_1 from '../../assets/img/disenio-1-start.png';
+import promocion from '../../assets/img/promocion.png';
 
 
 export interface IAppProps {

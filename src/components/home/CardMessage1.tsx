@@ -1,9 +1,9 @@
 import * as React from 'react';
-import decoracion_lineal_1 from './assets/img/corona_blanca_start.svg';
-import decoracion_lineal_2 from './assets/img/corona_blanca_end.svg';
-/* import parejas from './assets/img/pareja.png';
-import cumpleaños from './assets/img/cumpleaneaos.png';
-import bebe from './assets/img/bebe.png'; */
+import decoracion_lineal_1 from '../../assets/img/corona_blanca_start.svg';
+import decoracion_lineal_2 from '../../assets/img/corona_blanca_end.svg';
+/* import parejas from '../../assets/img/pareja.png';
+import cumpleaños from '../../assets/img/cumpleaneaos.png';
+import bebe from '../../assets/img/bebe.png'; */
 
 export interface IAppProps {
 }

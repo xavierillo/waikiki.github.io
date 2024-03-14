@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Polerones from './assets/img/poleron.png';
+import Polerones from '../../assets/img/poleron.png';
 
 export interface IAppProps {
 }
@@ -32,7 +32,7 @@ export default class App extends React.Component<IAppProps> {
                     </div>
                 </div>
             </div>
-      </div>
+        </div>
     );
   }
 }

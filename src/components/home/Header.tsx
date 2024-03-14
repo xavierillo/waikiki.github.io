@@ -1,7 +1,7 @@
 // Header.tsx
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logoEmpresa from './assets/img/waikiki_min.svg';
+import logoEmpresa from '../../assets/img/waikiki_min.svg';
 import { Link } from 'react-scroll';
 
 const Header: React.FC = () => {

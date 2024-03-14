@@ -176,3 +176,53 @@ body {
   border: 0;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
+
+
+/* .bg-cuponera {
+  height: 90vh;
+  min-height: 90vh;
+  background: rgb(38,143,172);
+  background: url('src/assets/img/bg-cuponera.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size:  100%;
+  background-attachment: fixed;
+} */
+
+.bg-cuponera-largo {
+  height: 60vh;
+  min-height: 60vh;
+  background: rgb(38,143,172);
+  background: url('src/assets/img/cupon-largo_1.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.bg-cuponera-corto {
+  height: 60vh;
+  min-height: 60vh;
+  background: rgb(38,143,172);
+  background: url('src/assets/img/cupon-corto_1.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.bg-cuponera-linea {
+  height: 60vh;
+  min-height: 60vh;
+  background: rgb(38,143,172);
+  background: url('src/assets/img/linea-curvas.svg'), url('src/assets/img/linea-curvas-end.svg'); 
+  background-repeat: repeat-y, repeat-y;
+  background-position: left center, right center;
+  background-size: contain, contain;
+}
+
+.bg-cuponera {
+  height: 60vh;
+  min-height: 60vh;
+  background: #76bbb6;
+  margin: 7px 13px;
+
+}
