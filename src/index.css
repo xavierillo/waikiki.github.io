@@ -226,3 +226,7 @@ body {
   margin: 7px 13px;
 
 }
+
+.border-waikiki-header {
+  border-color: #5AB6AA !important;
+}

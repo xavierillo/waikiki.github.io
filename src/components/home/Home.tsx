@@ -7,6 +7,7 @@ import CardMessage1 from './CardMessage1';
 import CardCustomDyeing from './CardCustomDyeing';
 import CardCustomDyeingMessage1 from './CardCustomDyeingMessage1';
 import CardAdhesiveService from './CardAdhesiveService';
+import CardCouponBookService from './CardCouponBookService';
 import wikiki_min from '../../assets/wikiki_min.svg';
 
 function App() {
@@ -44,6 +45,9 @@ function App() {
       </Element>
       <Element name="ServicioAdhesivo">
         <CardAdhesiveService />
+      </Element>
+      <Element name="ServicioCuponera">
+        <CardCouponBookService />
       </Element>
       <div className="container-fuild ps-5 pe-5  bg-waikiki-fondo-1">
         <footer className="d-flex flex-wrap justify-content-between align-items-center mt-0 mb-0 py-3 my-4 border-top">

@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 
 const Header: React.FC = () => {
     return (
-        <nav className="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+        <nav className="navbar navbar-expand-sm navbar-light bg-light fixed-top border-5 border-waikiki-header border-bottom">
             <div className="container-fluid">
                 {/* Logo de la empresa */}
                 <a className="navbar-brand" href="#">
@@ -21,9 +21,10 @@ const Header: React.FC = () => {
                 {/* Enlaces de navegación */}
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                     <div className="navbar-nav navbar-waikiki ms-auto me-auto">
-                        <Link className="nav-item nav-link" style={{cursor: 'pointer'}} to="servicioEstampados" spy={true} smooth={true} offset={-86} duration={500}>Estampados</Link>
-                        <Link className="nav-item nav-link" style={{cursor: 'pointer'}} to="servicioTenido" spy={true} smooth={true} offset={-86} duration={500}>Teñidos personalizados</Link>
-                        <Link className="nav-item nav-link" style={{cursor: 'pointer'}} to="ServicioAdhesivo" spy={true} smooth={true} offset={-86} duration={500}>Adhesivos en vinil</Link>
+                        <Link className="nav-item nav-link fs-6 me-4" style={{cursor: 'pointer'}} to="servicioEstampados" spy={true} smooth={true} offset={-86} duration={500}>Estampados</Link>
+                        <Link className="nav-item nav-link fs-6 me-4" style={{cursor: 'pointer'}} to="servicioTenido" spy={true} smooth={true} offset={-86} duration={500}>Teñidos personalizados</Link>
+                        <Link className="nav-item nav-link fs-6 me-4" style={{cursor: 'pointer'}} to="ServicioAdhesivo" spy={true} smooth={true} offset={-86} duration={500}>Adhesivos en vinil</Link>
+                        <Link className="nav-item nav-link fs-6 me-4" style={{cursor: 'pointer'}} to="ServicioCuponera" spy={true} smooth={true} offset={-86} duration={500}>Cuponera</Link>
                     </div>
                 </div>
             </div>
