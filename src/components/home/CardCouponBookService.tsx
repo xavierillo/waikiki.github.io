@@ -3,16 +3,17 @@ import { NavLink } from "react-router-dom";
 import waikiki_sello from '../../assets/img/waikiki_sello-transparente.png';
 import separador from '../../assets/img/separador-2.png';
 import numero_grupo from '../../assets/img/Grupo_numero.png';
+
 export interface IAppProps {
 }
 
 export default class App extends React.Component<IAppProps> {
   public render() {
     return (
-        <div className="container-fluid bg-white p-2">
+        <div className="container-fluid bg-white pt-4 pb-4 mt-4 mb-4">
             <div className='row g-0'>
                 <div className="col">
-                    <div className="container text-center p-0 pb-4">
+                    <div className="container text-center p-0 pb-4 mb-4">
                         <div className='row'>
                             <div className='col-12'>
                                 <h2 className="bold-text color-waikiki-5 text-center pt-2 pb-4">"¡Únete y estampa tu mundo con nosotros!"</h2>

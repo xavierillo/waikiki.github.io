@@ -11,6 +11,15 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fd8130",endColorstr="#00a5b7",GradientType=1);
 }
 
+.bg-waikiki-inv {
+  background: rgb(253,129,48);
+  background: -moz-linear-gradient(90deg, rgba(0,165,183,1) 0%, rgba(90,182,170,1) 20%, rgba(180,199,157,1) 40%, rgba(254,201,131,1) 60%, rgba(254,165,90,1) 80%, rgba(253,129,48,1) 100%);
+  background: -webkit-linear-gradient(90deg,rgba(0,165,183,1)  0%, rgba(90,182,170,1) 20%, rgba(180,199,157,1) 40%, rgba(254,201,131,1) 60%, rgba(254,165,90,1) 80%, rgba(253,129,48,1) 100%);
+  background: linear-gradient(90deg,rgba(0,165,183,1)  0%, rgba(90,182,170,1) 20%, rgba(180,199,157,1) 40%, rgba(254,201,131,1) 60%, rgba(254,165,90,1) 80%, rgba(253,129,48,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fd8130",endColorstr="#00a5b7",GradientType=1);
+}
+
+
 .bg-waikiki-card-customDyeing {
   background: #FDA972;
 }
@@ -178,42 +187,11 @@ body {
 }
 
 
-/* .bg-cuponera {
-  height: 90vh;
-  min-height: 90vh;
-  background: rgb(38,143,172);
-  background: url('src/assets/img/bg-cuponera.svg');
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size:  100%;
-  background-attachment: fixed;
-} */
-
-.bg-cuponera-largo {
-  height: 60vh;
-  min-height: 60vh;
-  background: rgb(38,143,172);
-  background: url('src/assets/img/cupon-largo_1.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
-.bg-cuponera-corto {
-  height: 60vh;
-  min-height: 60vh;
-  background: rgb(38,143,172);
-  background: url('src/assets/img/cupon-corto_1.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
 .bg-cuponera-linea {
   height: 60vh;
   min-height: 60vh;
   background: rgb(38,143,172);
-  background: url('src/assets/img/linea-curvas.svg'), url('src/assets/img/linea-curvas-end.svg'); 
+  background: url('/assets/img/linea-curvas.svg'), url('/assets/img/linea-curvas-end.svg');
   background-repeat: repeat-y, repeat-y;
   background-position: left center, right center;
   background-size: contain, contain;

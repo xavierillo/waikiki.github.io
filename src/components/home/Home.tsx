@@ -8,7 +8,7 @@ import CardCustomDyeing from './CardCustomDyeing';
 import CardCustomDyeingMessage1 from './CardCustomDyeingMessage1';
 import CardAdhesiveService from './CardAdhesiveService';
 import CardCouponBookService from './CardCouponBookService';
-import wikiki_min from '../../assets/wikiki_min.svg';
+import wikiki_min from '../../assets/img/waikiki-logo-mini.png';
 
 function App() {
 
@@ -33,7 +33,7 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header type_header={0}/>
       <Element name="servicioEstampados" >
         <CardContactUs />
         <CardMakePersonalized />
@@ -49,27 +49,29 @@ function App() {
       <Element name="ServicioCuponera">
         <CardCouponBookService />
       </Element>
-      <div className="container-fuild ps-5 pe-5  bg-waikiki-fondo-1">
+      <div className="container-fuild ps-5 pe-5 bg-waikiki-5">
         <footer className="d-flex flex-wrap justify-content-between align-items-center mt-0 mb-0 py-3 my-4 border-top">
           <div className="col-md-4 d-flex align-items-center">
             <a href="/" className="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
               <img src={wikiki_min} alt="Logo" width={40}/>
             </a>
-            <span className="mb-3 mb-md-0 text-body-secondary">© 2023 Waikiki, Ideas que fluyen</span>
+            <span className="mb-3 mb-md-0 text-white">© 2023 Waikiki, Ideas que Fluyen</span>
           </div>
 
+          <div className="col-md-4 d-flex align-items-center">
+            <small className="mb-3 mb-md-0 text-white">by © 2023 Javier ahumada</small>
+          </div>
           <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
             <li className="ms-3">
-                <a className="text-body-secondary" target="_blank" href="https://www.instagram.com/waikiki.iqf?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA==">
+                <a className="text-white" target="_blank" href="https://www.instagram.com/waikiki.iqf?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA==">
                   <i className="fa-brands fa-instagram"></i>
                 </a>
             </li>
             <li className="ms-3">
-              <a className="text-body-secondary" href="https://wa.me/c/56958878257" rel="noopener noreferrer" target="_blank">
+              <a className="text-white" href="https://wa.me/c/56958878257" rel="noopener noreferrer" target="_blank">
                 <i className="fa-brands fa-whatsapp" ></i>
               </a>
             </li>
-
           </ul>
         </footer>
       </div>
